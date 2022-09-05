@@ -7,6 +7,8 @@ require("hardhat-contract-sizer")
 require("./tasks")
 require("@appliedblockchain/chainlink-plugins-fund-link")
 require("dotenv").config()
+require('solidity-coverage')
+
 
 /**
  * @type import('hardhat/config').HardhatUserConfig

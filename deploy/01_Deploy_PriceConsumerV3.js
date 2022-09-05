@@ -13,15 +13,13 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
 
   let ethUsdPriceFeedAddress
 
-  /*
   if (chainId == 31337) {
     const EthUsdAggregator = await deployments.get("MockV3Aggregator")
     ethUsdPriceFeedAddress = EthUsdAggregator.address
   } else {
     ethUsdPriceFeedAddress = networkConfig[chainId]["ethUsdPriceFeed"]
   }
-  */
-  ethUsdPriceFeedAddress = networkConfig[chainId]["ethUsdPriceFeed"]
+  //ethUsdPriceFeedAddress = networkConfig[chainId]["ethUsdPriceFeed"]
 
 
   // Price Feed Address, values can be obtained at https://docs.chain.link/docs/reference-contracts
